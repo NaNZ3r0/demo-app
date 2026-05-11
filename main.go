@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	listenIP := net.ParseIP("127.0.0.1")
+	listenIP := net.ParseIP("0.0.0.0")
 	listenPort := 8080
 
 	listenString := listenIP.String() + ":" + strconv.Itoa(listenPort)
